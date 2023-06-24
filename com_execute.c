@@ -42,6 +42,9 @@ int com_execute(char **arguments)
     else if (strcasecmp(arguments[0], "help")==0){
         return help();
     }
+    else if (strcasecmp(arguments[0], "history")==0){
+        return history();
+    }
 
     return shell_launch(arguments);
 }

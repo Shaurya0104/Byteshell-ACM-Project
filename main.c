@@ -17,6 +17,8 @@
 #include "com_execute.c"
 #include "parser.c"
 #include "main_loop.c"
+#include "shell_history.c"
+
 
 int main()
 {

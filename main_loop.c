@@ -12,11 +12,14 @@ void main_loop()
         arguments = parser(curline);
         status = com_execute(arguments);
         // printf("%d\n", status);
+        add_history(arguments);
         free(curline);
         free(arguments);
         if (status == 0)
         {
             break;
         }
+        // printf("che\n");
+
     }
 }
