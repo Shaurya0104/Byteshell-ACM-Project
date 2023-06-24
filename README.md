@@ -13,6 +13,7 @@ Byteshell offers the following features:
 5. **History**: Access and browse through a command history log.
 6. **Make Directory (mkdir)**: Create new directories in the file system.
 7. **Command Execution**: Execute external commands using the `execv` function.
+8. The shell stores the history of commands also.
 
 ## Getting Started
 
