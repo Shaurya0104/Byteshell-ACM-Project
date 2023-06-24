@@ -9,6 +9,7 @@
 #include "shell_cd.c"
 #include "shell_echo.c"
 #include "shell_exit.c"
+#include "shell_help.c"
 #include "shell_launch.c"
 #include "shell_mkdir.c"
 #include "shell_pwd.c"

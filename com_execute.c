@@ -35,17 +35,12 @@ int com_execute(char **arguments)
     {
         return shell_exit(arguments);
     }
-    else if (strcasecmp(arguments[0], "touch") == 0)
-    {
-        return shell_touch(arguments);
-    }
-    else if (strcasecmp(arguments[0], "rm") == 0)
-    {
-        return shell_rm(arguments);
-    }
     else if (strcasecmp(arguments[0], "rmdir") == 0)
     {
         return shell_rmdir(arguments);
+    }
+    else if (strcasecmp(arguments[0], "help")==0){
+        return help();
     }
 
     return shell_launch(arguments);

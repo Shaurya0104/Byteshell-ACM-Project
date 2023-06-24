@@ -57,7 +57,7 @@ int shell_alias(char **arguments)
             cur = cur->next;
             cur->next = NULL;
         }
-        printf("%s is set to %s", key, temp);
+        printf("%s is set to %s\n", key, temp);
     }
 }
 
